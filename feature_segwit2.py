@@ -82,7 +82,7 @@ class SegWitTest(BitcoinTestFramework):
                 "-testactivationheight=segwit@165",
                 "-addresstype=legacy",
             ]
-        ] * self.num_nodessupe
+        ] * self.num_nodes
 
         self.rpc_timeout= 120
 
